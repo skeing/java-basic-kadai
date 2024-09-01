@@ -6,7 +6,7 @@ public class Price_Chapter08 {
 	int userAge = 33;
 	
 	// サービスの使用料金
-	int serviceCost;
+	int serviceCost = 0;
 	
 	String userAgeStr;
 
