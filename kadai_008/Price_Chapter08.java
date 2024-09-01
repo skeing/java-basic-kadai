@@ -33,11 +33,9 @@ public class Price_Chapter08 {
     default->500;
     
 };
-
-	String strServiceCost = Integer.toString(serviceCost);
 	
 	// 30代の料金を取得
-	System.out.println(String.format("料金は%s円です",  strServiceCost));
+	System.out.println(String.format("料金は%d円です",  serviceCost));
 
 }
 }
